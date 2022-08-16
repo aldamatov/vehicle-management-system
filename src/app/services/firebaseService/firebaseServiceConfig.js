@@ -1,21 +1,23 @@
 const prodConfig = {
-  apiKey: 'AIzaSyDaY9Ak5DzDNj4RkWQoKivKz8o8KZZrwQI',
-  authDomain: 'team-2-61536.firebaseapp.com',
-  projectId: 'team-2-61536',
-  storageBucket: 'team-2-61536.appspot.com',
-  messagingSenderId: '781607155451',
-  appId: '1:781607155451:web:4f5a67fea9ebed7e76625e',
-  databaseURL: 'https://team-2-61536-default-rtdb.firebaseio.com/'
+  apiKey: 'AIzaSyBIYIb_dbizBcruyN0lZG8DeFuWbZZETbI',
+  authDomain: 'vehicle-management-syste-337b8.firebaseapp.com',
+  databaseURL: 'https://vehicle-management-syste-337b8-default-rtdb.asia-southeast1.firebasedatabase.app',
+  projectId: 'vehicle-management-syste-337b8',
+  storageBucket: 'vehicle-management-syste-337b8.appspot.com',
+  messagingSenderId: '403167433279',
+  appId: '1:403167433279:web:d4340e70e0b00fb1869e8a',
+  measurementId: 'G-TJ6EQ1QHKF'
 };
 
 const devConfig = {
-  apiKey: 'AIzaSyDaY9Ak5DzDNj4RkWQoKivKz8o8KZZrwQI',
-  authDomain: 'team-2-61536.firebaseapp.com',
-  projectId: 'team-2-61536',
-  storageBucket: 'team-2-61536.appspot.com',
-  messagingSenderId: '781607155451',
-  appId: '1:781607155451:web:4f5a67fea9ebed7e76625e',
-  databaseURL: 'https://team-2-61536-default-rtdb.firebaseio.com/'
+  apiKey: 'AIzaSyBIYIb_dbizBcruyN0lZG8DeFuWbZZETbI',
+  authDomain: 'vehicle-management-syste-337b8.firebaseapp.com',
+  databaseURL: 'https://vehicle-management-syste-337b8-default-rtdb.asia-southeast1.firebasedatabase.app',
+  projectId: 'vehicle-management-syste-337b8',
+  storageBucket: 'vehicle-management-syste-337b8.appspot.com',
+  messagingSenderId: '403167433279',
+  appId: '1:403167433279:web:d4340e70e0b00fb1869e8a',
+  measurementId: 'G-TJ6EQ1QHKF'
 };
 
 const config = process.env.NODE_ENV === 'production' ? prodConfig : devConfig;
